@@ -1,0 +1,30 @@
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span {
+    padding-left: 27px;
+}
+[type="checkbox"]:not(:checked)+span, [type="checkbox"]:checked+span {
+    padding-left: 20px;
+}
+[type="checkbox"]+span:not(.lever):before, [type="checkbox"]:not(.filled-in)+span:not(.lever):after {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+.gender p {
+    display: inline-block;
+    padding-right: 12px;
+}
+.send-btn {
+    margin-left: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    border: 0;
+    padding: 10px 38px;
+    font-size: 1.3em;
+    color: #fff;
+    background: #363854;
+}
+.available-h6 {
+    font-size: 1.4rem;
+    line-height: 138%;
+}
