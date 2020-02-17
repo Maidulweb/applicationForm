@@ -28,3 +28,23 @@
     font-size: 1.4rem;
     line-height: 138%;
 }
+.input-field>label {
+    color: #6f6f6f;
+    font-size: 1.2rem;
+}
+label {
+    color: #6f6f6f;
+}
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span {
+    font-size: 1.2rem;
+}
+[type="checkbox"]+span:not(.lever) {
+    font-size: 1.2rem;
+}
+h6 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+p {
+    font-size: 1.2rem;
+}

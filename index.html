@@ -55,7 +55,7 @@
            </div>
            <div class="row">
             <div class="col s12">
-              <h6>SOCIAL MEDIA ID : </h6>
+              <h6>SOCIAL MEDIA ID (Optional) : </h6>
            </div>
             <div class="input-field col s12">
               <input id="socialid" type="text" class="validate">
@@ -65,7 +65,7 @@
 
            <div class="row">
             <div class="col s12">
-                <h6>CONTACT : </h6>
+                <h6>ADDRESS : </h6>
             </div>
              <div class="input-field col s6">
                <input id="street" type="text" class="validate">
@@ -84,27 +84,21 @@
                 <label for="post_code">Post Code</label>
                </div>
                </div>
-
+               
                <div class="row">
+                <div class="col s12">
+                  <h6>CONTACT DETAILS : </h6>
+                 </div>
                 <div class="input-field col s6">
                   <input id="contact-number" type="text" class="validate">
-                  <label for="contact-number">CONTACT NUMBER</label>
+                  <label for="contact-number">MOBILE NUMBER</label>
                  </div>
                  <div class="input-field col s6">
                   <input id="email" type="email" class="validate">
                   <label for="email">EMAIL</label>
                  </div>
                </div>
-               <div class="row">
-                <div class="input-field col s6">
-                  <input id="birth" type="text" class="validate">
-                  <label for="birth">DATE OF BIRTH</label>
-                 </div>
-                 <div class="input-field col s6">
-                  <input id="nationality" type="text" class="validate">
-                  <label for="nationality">NATIONALITY</label>
-                 </div>
-               </div>
+               
                <div class="row">
                 <div class="col s12">
                   <h6>MARITAL STATUS : </h6>
@@ -122,18 +116,6 @@
                           <span>Married</span>
                         </label>
                       </p>
-                      <p>
-                        <label>
-                          <input name="group1" type="radio"  />
-                          <span>Widow</span>
-                        </label>
-                      </p>
-                      <p>
-                        <label>
-                          <input name="group1" type="radio"  />
-                          <span>Others</span>
-                        </label>
-                      </p>
                 </div>
                </div>
                <div class="row">
@@ -142,7 +124,7 @@
                </div>
                 <div class="input-field col s6">
                   <input id="passport" type="text" class="validate">
-                  <label for="passport">PASSPORT</label>
+                  <label for="passport">PASSPORT NUMBER</label>
                  </div>
                  <div class="input-field col s6">
                   <input id="visa-date" type="text" class="validate">
@@ -150,7 +132,7 @@
                  </div>
                 <div class="input-field col s6">
                   <input id="visa-type" type="text" class="validate">
-                  <label for="visa-type">VISA TYPE</label>
+                  <label for="visa-type">VISA TYPE OF</label>
                  </div>
                  <div class="input-field col s6">
                   <input id="visa-sub" type="text" class="validate">
@@ -172,13 +154,27 @@
                  </div>
                </div>
                <div class="row">
+                <div class="row">
+                  <div class="col s12">
+                    <h6>BANK DETAILS: </h6>
+                 </div>
+                <div class="input-field col s12">
+                  <input id="super-fund" type="text" class="validate">
+                  <label for="super-fund">BANK NAME</label>
+                 </div>
+                 <div class="input-field col s12">
+                  <input id="super-fund" type="text" class="validate">
+                  <label for="super-fund">ACCOUNT NAME</label>
+                 </div>
+               </div>
+               <div class="row">
                 <div class="input-field col s6">
                   <input id="bsb" type="text" class="validate">
                   <label for="bsb">BSB NO</label>
                  </div>
                  <div class="input-field col s6">
                   <input id="account-no" type="text" class="validate">
-                  <label for="account-no">ACCOUN NO</label>
+                  <label for="account-no">ACCOUNT NO</label>
                  </div>
                </div>
                <div class="row">
@@ -226,6 +222,12 @@
                         <label>
                           <input name="group1" type="radio"  />
                           <span>Backhoe</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label>
+                          <input name="group1" type="radio"  />
+                          <span>OTHERS</span>
                         </label>
                       </p>
                 </div>
@@ -281,6 +283,12 @@
                           <span>MC</span>
                         </label>
                       </p>
+                      <p>
+                        <label>
+                          <input name="group1" type="checkbox"  />
+                          <span>OTHERS</span>
+                        </label>
+                      </p>
                 </div>
                </div>
                <div class="row">
@@ -323,36 +331,31 @@
                     <div class="col s6">
                       <p>
                         <label>
-                          <input name="group1" type="radio" />
-                          <span>Masters</span>
-                        </label>
-                      </p>
-                      <p>
-                        <label>
-                          <input name="group1" type="radio" />
-                          <span>Masters</span>
-                        </label>
-                      </p>
-                      <p>
-                        <label>
-                          <input name="group1" type="radio"  />
-                          <span>Bachelors</span>
-                        </label>
-                      </p>
-                    </div>
-                    <div class="col s6">
-                      <p>
-                        <label>
-                          <input name="group1" type="radio"  />
-                          <span>Bachelors</span>
-                        </label>
-                      </p>
-                      <p>
-                        <label>
                           <input name="group1" type="radio"  />
                           <span>Diploma</span>
                         </label>
                       </p>
+                      <p>
+                        <label>
+                          <input name="group1" type="radio"  />
+                          <span>Bachelors</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label>
+                          <input name="group1" type="radio" />
+                          <span>Masters</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label>
+                          <input name="group1" type="radio" />
+                          <span>Masters</span>
+                        </label>
+                      </p>
+                      
+                    </div>
+                    <div class="col s6">
                       <p>
                         <label>
                           <input name="group1" type="radio"  />
@@ -377,52 +380,88 @@
                 </div>
                 <div class="input-field col s12">
                    <input id="street" type="text" class="validate">
-                   <label for="street">1. Company Name</label>
-                </div>
-                <div class="input-field col s6">
-                   <input id="suburb" type="text" class="validate">
-                   <label for="suburb">Contact</label>
-                </div>
-                <div class="input-field col s6">
-                   <input id="state" type="text" class="validate">
-                   <label for="state">Experienced in</label>
+                   <label for="street">1. Current Company Name</label>
                 </div>
                 <div class="input-field col s12">
                   <input id="street" type="text" class="validate">
-                  <label for="street">2. Company Name</label>
+                  <label for="street">Job Title</label>
+               </div>
+                <div class="input-field col s12">
+                  <input id="street" type="text" class="validate">
+                  <label for="street">Job Description</label>
                </div>
                <div class="input-field col s6">
-                  <input id="suburb" type="text" class="validate">
-                  <label for="suburb">Contact</label>
-               </div>
-               <div class="input-field col s6">
-                  <input id="state" type="text" class="validate">
-                  <label for="state">Experienced in</label>
-               </div>
+                <input id="state" type="text" class="validate">
+                <label for="state">Years of Experience</label>
+             </div>
+                <div class="input-field col s6">
+                   <input id="suburb" type="text" class="validate">
+                   <label for="suburb">Referee Name</label>
+                </div>
+                
                <div class="input-field col s12">
                 <input id="street" type="text" class="validate">
-                <label for="street">3. Company Name</label>
+                <label for="street">2. Previous Company Name</label>
              </div>
-             <div class="input-field col s6">
+             <div class="input-field col s12">
+               <input id="street" type="text" class="validate">
+               <label for="street">Job Title</label>
+            </div>
+             <div class="input-field col s12">
+               <input id="street" type="text" class="validate">
+               <label for="street">Job Description</label>
+            </div>
+            <div class="input-field col s12">
+             <input id="state" type="text" class="validate">
+             <label for="state">Years of Experience</label>
+          </div>
+             <div class="input-field col s12">
                 <input id="suburb" type="text" class="validate">
-                <label for="suburb">Contact</label>
+                <label for="suburb">Referee Name</label>
              </div>
-             <div class="input-field col s6">
-                <input id="state" type="text" class="validate">
-                <label for="state">Experienced in</label>
-             </div>
+             <div class="input-field col s12">
+              <input id="suburb" type="text" class="validate">
+              <label for="suburb">Referee Number</label>
+           </div>
               </div>
              <div class="row">
               <div class="col s12">
-                <h6>TYPES OF LICENSE : </h6>
+                <h6>EXPERIENCED IN : </h6>
+            </div>
+            <div class="row">
+              <div class="col s6">
+                <p>
+                  <label>
+                    <input name="group1" type="checkbox" />
+                    <span>Warehousing</span>
+                  </label>
+                </p>
+              </div>
+              <div class="col s6">
+                <p>
+                  <label>
+                    <input name="group1" type="checkbox" />
+                    <span>Logistics</span>
+                  </label>
+                </p>
+              </div>
+              <div class="input-field col s12">
+                <input id="suburb" type="text" class="validate">
+                <label for="suburb">Please specify</label>
+             </div>
+            </div>
+            <div class="row">
+              
             </div>
               <div class="col s12 gender">
-                  <p>
+                  
+                    <p>
                       <label>
-                        <input name="group1" type="checkbox" />
-                        <span>Warehousing</span>
+                        <input name="group1" type="checkbox"  />
+                        <span></span>
                       </label>
                     </p>
+                    <br> ......  input field ......****<br>
                     <p>
                       <label>
                         <input name="group1" type="checkbox" />
@@ -435,12 +474,7 @@
                         <span>Laundry</span>
                       </label>
                     </p>
-                    <p>
-                      <label>
-                        <input name="group1" type="checkbox"  />
-                        <span>Logistics</span>
-                      </label>
-                    </p>
+                    <br> ......  input field ......****<br>
                     <p>
                       <label>
                         <input name="group1" type="checkbox"  />
@@ -453,23 +487,59 @@
                         <span>civil</span>
                       </label>
                     </p>
+                    <br> ......  input field ......****<br>
                     <p>
                       <label>
                         <input name="group1" type="checkbox"  />
-                        <span>Trade Industry</span>
+                        <span>Tradie</span>
                       </label>
                     </p>
+                    <p>
+                      <label>
+                        <input name="group1" type="checkbox"  />
+                        <span>Security</span>
+                      </label>
+                    </p>
+                    <div class="input-field col s12">
+                      <input id="" type="text" class="validate">
+                      <label for="">Please specify</label>
+                     </div>
+                    <p>
+                      <label>
+                        <input name="group1" type="checkbox"  />
+                        <span>Process Work</span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        <input name="group1" type="checkbox"  />
+                        <span>Farm Work</span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        <input name="group1" type="checkbox"  />
+                        <span>OTHERS</span>
+                      </label>
+                    </p>
+                    <br> ......  input field ......****<br>
               </div>
              </div>
 
              <div class="row">
                <div class="col s12">
-                  <h6 class="available-h6">My Availabilities ( M or Morning, A for Afternoon, E for Evening, or Leave Blank for Not Available ) </h6>
+                  <h6 class="available-h6">My Availability For Work... (Em = Early Morning, M = Morning, A = Afternoon, E = Evening, or Leave Blank for Not Available ) </h6>
               </div>
             </div>
             <div class="row">
               <div class="col s4"><p>Monday : </p></div>
               <div class="col s8 gender">
+                <p>
+                  <label>
+                    <input name="group1" type="checkbox"  />
+                    <span>Em</span>
+                  </label>
+                </p>
                 <p>
                   <label>
                     <input name="group1" type="checkbox" />
@@ -496,6 +566,12 @@
                 <p>
                   <label>
                     <input name="group1" type="checkbox" />
+                    <span>Em</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group1" type="checkbox" />
                     <span>M</span>
                   </label>
                 </p>
@@ -518,6 +594,12 @@
               <div class="col s8 gender">
                 <p>
                   <label>
+                    <input name="group1" type="checkbox"  />
+                    <span>Em</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
                     <input name="group1" type="checkbox" />
                     <span>M</span>
                   </label>
@@ -531,7 +613,7 @@
                 <p>
                   <label>
                     <input name="group1" type="checkbox"  />
-                    <span>E</span>
+                    <span>Ev</span>
                   </label>
                 </p>
               </div>
@@ -541,6 +623,12 @@
               <div class="col s8 gender">
                 <p>
                   <label>
+                    <input name="group1" type="checkbox"  />
+                    <span>Em</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
                     <input name="group1" type="checkbox" />
                     <span>M</span>
                   </label>
@@ -554,7 +642,7 @@
                 <p>
                   <label>
                     <input name="group1" type="checkbox"  />
-                    <span>E</span>
+                    <span>Ev</span>
                   </label>
                 </p>
               </div>
@@ -564,6 +652,12 @@
               <div class="col s8 gender">
                 <p>
                   <label>
+                    <input name="group1" type="checkbox"  />
+                    <span>Em</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
                     <input name="group1" type="checkbox" />
                     <span>M</span>
                   </label>
@@ -577,7 +671,7 @@
                 <p>
                   <label>
                     <input name="group1" type="checkbox"  />
-                    <span>E</span>
+                    <span>Ev</span>
                   </label>
                 </p>
               </div>
@@ -587,6 +681,12 @@
               <div class="col s8 gender">
                 <p>
                   <label>
+                    <input name="group1" type="checkbox"  />
+                    <span>Em</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
                     <input name="group1" type="checkbox" />
                     <span>M</span>
                   </label>
@@ -600,7 +700,7 @@
                 <p>
                   <label>
                     <input name="group1" type="checkbox"  />
-                    <span>E</span>
+                    <span>Ev</span>
                   </label>
                 </p>
               </div>
@@ -610,6 +710,12 @@
               <div class="col s8 gender">
                 <p>
                   <label>
+                    <input name="group1" type="checkbox"  />
+                    <span>Em</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
                     <input name="group1" type="checkbox" />
                     <span>M</span>
                   </label>
@@ -623,7 +729,7 @@
                 <p>
                   <label>
                     <input name="group1" type="checkbox"  />
-                    <span>E</span>
+                    <span>Ev</span>
                   </label>
                 </p>
               </div>
@@ -660,19 +766,19 @@
                   <p>
                       <label>
                         <input name="group1" type="checkbox" />
-                        <span>None</span>
+                        <span>Yes</span>
                       </label>
                     </p>
+                    <div class="input-field col s12">
+                      <input id="" type="text" class="validate">
+                      <label for="">If so, please specify</label>
+                     </div>
+                    </div>
+                    <div class="col s12 gender">
                     <p>
                       <label>
                         <input name="group1" type="checkbox" />
-                        <span>Asthma</span>
-                      </label>
-                    </p>
-                    <p>
-                      <label>
-                        <input name="group1" type="checkbox"  />
-                        <span>Allergies</span>
+                        <span>No</span>
                       </label>
                     </p>
               </div>
