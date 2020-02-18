@@ -60,6 +60,15 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     color: #6f6f6f;
     padding-left: 14px;
 }
+::-webkit-input-placeholder { /* Edge */
+    color: #6f6f6f;
+    padding-left: 14px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #6f6f6f;
+    padding-left: 14px;
+  }
 .p-t-30 {
     padding-top: 30px !important;
 }
