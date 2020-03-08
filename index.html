@@ -13,10 +13,27 @@
         <form class="col s12">
           <div class="row">
             <div class="input-field col s12">
-              <input id="first_name" type="text" class="validate" placeholder="First Name">
+              <input name="prev" type="text" class="validate" placeholder="Previous">
             </div>
             <div class="input-field col s12">
-              <input id="first_name" type="text" class="validate" placeholder="Last Name">
+              <input name="status" type="text" class="validate" placeholder="Status">
+            </div>
+            <div class="input-field col s12">
+              <input name="last_visit" type="text" class="validate" placeholder="Last Visit">
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input name="first_name" type="text" class="validate" placeholder="First Name">
+            </div>
+            <div class="input-field col s12">
+              <input name="last_name" type="text" class="validate" placeholder="Last Name">
+            </div>
+            <div class="input-field col s12">
+              <input name="title" type="text" class="validate" placeholder="Title">
+            </div>
+            <div class="input-field col s12">
+              <input name="email" type="text" class="validate" placeholder="Email">
             </div>
           </div>
           <div class="row">
@@ -37,10 +54,13 @@
                     </label>
                   </p>
             </div>
+            <div class="input-field col s12">
+              <input name="dob" type="text" class="validate" placeholder="dob">
+            </div>
            </div>
            <div class="row">
             <div class="input-field col s12">
-              <input id="socialid" type="text" class="validate" placeholder="Social Media ID ">
+              <input name="socialid" type="text" class="validate" placeholder="Social Media ID ">
             </div>
            </div>
 
@@ -48,17 +68,18 @@
             <div class="col s12">
               <h6>ADDRESS : </h6>
           </div>
-             <div class="input-field col s12">
-               <input id="street" type="text" class="validate" placeholder="Street Name">
-              </div>
+             
               <div class="input-field col s12">
-                <input id="suburb" type="text" class="validate" placeholder="Suburb">
+                <input name="suburb_name" type="text" class="validate" placeholder="Suburb">
                </div>
                <div class="input-field col s12">
-                <input id="state" type="text" class="validate" placeholder="State">
+                <input name="statename" type="text" class="validate" placeholder="State">
                </div>
                <div class="input-field col s12">
-                <input id="post_code" type="text" class="validate" placeholder="Post Code">
+                <input name="postcode" type="text" class="validate" placeholder="Post Code">
+               </div>
+               <div class="input-field col s12">
+                <input name="street" type="text" class="validate" placeholder="Street Name">
                </div>
                </div>
                
@@ -66,11 +87,20 @@
                 <div class="col s12">
                   <h6>CONTACT DETAILS : </h6>
                  </div>
+                 <div class="input-field col s12">
+                  <input name="nationality" type="text" class="validate" placeholder="Nationality">
+                 </div>
                 <div class="input-field col s12">
-                  <input id="contact-number" type="text" class="validate" placeholder="Mobile Number">
+                  <input name="phone_mobile" type="text" class="validate" placeholder="Mobile Number">
                  </div>
                  <div class="input-field col s12">
-                  <input id="email" type="email" class="validate" placeholder="Email">
+                  <input name="phone_home" type="text" class="validate" placeholder="Home Number">
+                 </div>
+                 <div class="col s12">
+                  <h6>PHOTO : </h6>
+                 </div>
+                 <div class="input-field col s12">
+                  <input name="picture" type="file" class="validate" >
                  </div>
                </div>
                
@@ -81,13 +111,13 @@
                 <div class="col s12 gender">
                     <p>
                         <label>
-                          <input name="group1" type="radio" />
+                          <input name="marital_status" type="radio" />
                           <span>Single</span>
                         </label>
                       </p>
                       <p>
                         <label>
-                          <input name="group1" type="radio" />
+                          <input name="marital_status" type="radio" />
                           <span>Married</span>
                         </label>
                       </p>
@@ -99,25 +129,25 @@
                   <h6>PASSPORT & VISA : </h6>
                </div>
                 <div class="input-field col s12">
-                  <input id="passport" type="text" class="validate" placeholder="Passport Number">
+                  <input name="passport_number" type="text" class="validate" placeholder="Passport Number">
                  </div>
                  <div class="input-field col s12">
-                  <input id="visa-date" type="text" class="validate" placeholder="Visa Expiry Date">
+                  <input name="visa_expiry_date" type="text" class="validate" placeholder="Visa Expiry Date">
                  </div>
                 <div class="input-field col s12">
-                  <input id="visa-type" type="text" class="validate" placeholder="Visa Type Of">
+                  <input name="visa_type" type="text" class="validate" placeholder="Visa Type Of">
                  </div>
                  <div class="input-field col s12">
-                  <input id="visa-sub" type="text" class="validate" placeholder="Visa Sub Class">
+                  <input name="visa_sub" type="text" class="validate" placeholder="Visa Sub Class">
                  </div>
                  <div class="input-field col s12">
-                  <input id="abn" type="text" class="validate" placeholder="ABN*">
+                  <input name="abn" type="text" class="validate" placeholder="ABN*">
                  </div>
                  <div class="input-field col s12">
-                  <input id="tfn" type="text" class="validate" placeholder="TFN">
+                  <input name="tfn" type="text" class="validate" placeholder="TFN">
                  </div>
                  <div class="input-field col s12">
-                  <input id="super-fund" type="text" class="validate" placeholder="Super Fund Details">
+                  <input name="sfn" type="text" class="validate" placeholder="Super Fund Details">
                  </div>
                 </div>
 
@@ -126,17 +156,17 @@
                     <h6>BANK DETAILS: </h6>
                  </div>
                 <div class="input-field col s12">
-                  <input id="super-fund" type="text" class="validate" placeholder="Bank Name">
+                  <input name="" type="text" class="validate" placeholder="Bank Name">
                  </div>
                  <div class="input-field col s12">
-                  <input id="super-fund" type="text" class="validate" placeholder="Account Name">
+                  <input name="" type="text" class="validate" placeholder="Account Name">
                  </div>
                
                 <div class="input-field col s12">
-                  <input id="bsb" type="text" class="validate" placeholder="BSB No">
+                  <input name="bsb" type="text" class="validate" placeholder="BSB No">
                  </div>
                  <div class="input-field col s12">
-                  <input id="account-no" type="text" class="validate" placeholder="Account No">
+                  <input name="account-no" type="text" class="validate" placeholder="Account No">
                  </div>
                 </div>
 
@@ -195,7 +225,7 @@
                       </p>
                 </div>
                 <div class="input-field col s12">
-                  <input id="driver-license" type="text" class="validate" placeholder="Driving License No">
+                  <input name="driver-license" type="text" class="validate" placeholder="Driving License No">
                  </div>
                 </div>
 
@@ -274,10 +304,10 @@
                       </p>
                 </div>
                 <div class="input-field col s12">
-                  <input id="" type="text" class="validate" placeholder="If Yes, specify type">
+                  <input name="" type="text" class="validate" placeholder="If Yes, specify type">
                  </div>
                  <div class="input-field col s12">
-                  <input id="" type="text" class="validate" placeholder="How far you can travel......Km">
+                  <input name="" type="text" class="validate" placeholder="How far you can travel......Km">
                  </div>
                </div>
                
@@ -313,16 +343,16 @@
                       </p>
                 </div>
                 <div class="input-field col s12">
-                  <input id="" type="text" class="validate" placeholder="Name of University/College">
+                  <input name="" type="text" class="validate" placeholder="Name of University/College">
                  </div>
                  <div class="input-field col s12">
-                  <input id="" type="text" class="validate" placeholder="Name of the Course">
+                  <input name="" type="text" class="validate" placeholder="Name of the Course">
                  </div>
                  <div class="input-field col s12">
-                  <input id="" type="text" class="validate" placeholder="Name of the Course">
+                  <input name="" type="text" class="validate" placeholder="Name of the Course">
                  </div>
                  <div class="input-field col s12">
-                  <input id="" type="text" class="validate" placeholder="Others, Please specify">
+                  <input name="" type="text" class="validate" placeholder="Others, Please specify">
                </div>
               </div>
 
@@ -331,40 +361,40 @@
                     <h6>WORK EXPERIENCE : </h6>
                 </div>
                 <div class="input-field col s12">
-                  <input id="street" type="text" class="validate" placeholder="Current Company Name">
+                  <input name="street" type="text" class="validate" placeholder="Current Company Name">
                </div>
                <div class="input-field col s12">
-                 <input id="street" type="text" class="validate" placeholder="Job Title">
+                 <input name="street" type="text" class="validate" placeholder="Job Title">
               </div>
                <div class="input-field col s12">
-                 <input id="street" type="text" class="validate" placeholder="Job Description">
+                 <input name="street" type="text" class="validate" placeholder="Job Description">
               </div>
               <div class="input-field col s12">
-               <input id="state" type="text" class="validate" placeholder="Years of Experience">
+               <input name="state" type="text" class="validate" placeholder="Years of Experience">
             </div>
                <div class="input-field col s12">
-                  <input id="suburb" type="text" class="validate" placeholder="Referee Name">
+                  <input name="suburb" type="text" class="validate" placeholder="Referee Name">
                </div>
                <div class="input-field col s12">
-                <input id="suburb" type="text" class="validate" placeholder="Referee Contact Number">
+                <input name="suburb" type="text" class="validate" placeholder="Referee Contact Number">
              </div>
                <div class="input-field col s12 p-t-30">
-                <input id="street" type="text" class="validate" placeholder="Previous Company Name">
+                <input name="street" type="text" class="validate" placeholder="Previous Company Name">
              </div>
              <div class="input-field col s12">
-               <input id="street" type="text" class="validate" placeholder="Job Title">
+               <input name="street" type="text" class="validate" placeholder="Job Title">
             </div>
              <div class="input-field col s12">
-               <input id="street" type="text" class="validate" placeholder="Job Description">
+               <input name="street" type="text" class="validate" placeholder="Job Description">
             </div>
             <div class="input-field col s12">
-             <input id="state" type="text" class="validate" placeholder="Years of Experience">
+             <input name="state" type="text" class="validate" placeholder="Years of Experience">
           </div>
              <div class="input-field col s12">
-                <input id="suburb" type="text" class="validate" placeholder="Referee Name">
+                <input name="suburb" type="text" class="validate" placeholder="Referee Name">
              </div>
              <div class="input-field col s12">
-              <input id="suburb" type="text" class="validate" placeholder="Referee Contact Number">
+              <input name="suburb" type="text" class="validate" placeholder="Referee Contact Number">
            </div>
               </div>
              <div class="row">
@@ -388,7 +418,7 @@
                 </p>
               </div>
               <div class="input-field col s12">
-                <input id="suburb" type="text" class="validate" placeholder="Please specify">
+                <input name="suburb" type="text" class="validate" placeholder="Please specify">
              </div>
               <div class="col s6">
                 <p>
@@ -407,7 +437,7 @@
                 </p>
               </div>
               <div class="input-field col s12">
-                <input id="suburb" type="text" class="validate" placeholder="Please specify">
+                <input name="suburb" type="text" class="validate" placeholder="Please specify">
              </div>
               <div class="col s6">
                 <p>
@@ -426,7 +456,7 @@
                 </p>
               </div>
               <div class="input-field col s12">
-                <input id="suburb" type="text" class="validate" placeholder="Please specify">
+                <input name="suburb" type="text" class="validate" placeholder="Please specify">
              </div>
               <div class="col s6">
                 <p>
@@ -445,7 +475,7 @@
                 </p>
               </div>
               <div class="input-field col s12">
-                <input id="suburb" type="text" class="validate" placeholder="Please specify">
+                <input name="suburb" type="text" class="validate" placeholder="Please specify">
              </div>
               <div class="col s6">
                 <p>
@@ -464,7 +494,7 @@
                 </p>
               </div>
               <div class="input-field col s12">
-                <input id="suburb" type="text" class="validate" placeholder="Please specify">
+                <input name="suburb" type="text" class="validate" placeholder="Please specify">
              </div>
               <div class="col s12">
                 <p>
@@ -475,7 +505,7 @@
                 </p>
               </div>
               <div class="input-field col s12">
-                <input id="suburb" type="text" class="validate" placeholder="Others, Please specify">
+                <input name="suburb" type="text" class="validate" placeholder="Others, Please specify">
              </div>
             </div>
 
@@ -697,7 +727,7 @@
                 <h6>Have you had any work related injury : </h6>
               </div>
               <div class="input-field col s12">
-                <input id="" type="text" class="validate" placeholder="If yes, please specify">
+                <input name="" type="text" class="validate" placeholder="If yes, please specify">
                </div>
              </div>
              <div class="row">
@@ -705,7 +735,7 @@
                 <h6>Have you had any criminal convictions : </h6>
               </div>
               <div class="input-field col s12">
-                <input id="" type="text" class="validate" placeholder="If so, please specify">
+                <input name="" type="text" class="validate" placeholder="If so, please specify">
                </div>
              </div>
 
@@ -728,7 +758,7 @@
                     </p>
                     </div>
                     <div class="input-field col s12">
-                      <input id="" type="text" class="validate" placeholder="If so, please specify">
+                      <input name="" type="text" class="validate" placeholder="If so, please specify">
                      </div>
              </div>
              <div class="row">
